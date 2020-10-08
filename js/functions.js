@@ -23,5 +23,10 @@ const animations = ()=>{
         divs[i].classList.add("wow","animate__animated","animate__fadeInUp")
     }
 }
+const year = ()=>{
+    var date = new Date();
+    document.getElementById("year").innerHTML= date.getFullYear();
+}
 animations();
+year();
 

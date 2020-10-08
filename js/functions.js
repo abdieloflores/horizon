@@ -16,3 +16,12 @@ window.addEventListener("scroll", e=>{
         toggle1.className = "d-flex flex-row order-2 order-lg-3 m-auto"
     }
 });
+
+const animations = ()=>{
+    const divs = document.getElementsByTagName("div");
+    for(let i=0;i<divs.length;i++){
+        divs[i].classList.add("wow","animate__animated","animate__fadeInUp")
+    }
+}
+animations();
+
